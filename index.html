@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------------- REMIX ICONS --------------------->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!------------------- FLICKITY CSS -------------------->
+    <link rel="stylesheet" href="style/flickity.css" media="screen">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">   
+
+    <!------------------- MAIN CSS --------------------->
+    <link rel="stylesheet" href="style/style.css">
+    <title>8Counts</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">8Counts</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#clients" class="nav__link">Clients</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="lang__group">
+                    <span class="lang__option active__lang" id="lang__one">EN</span>
+                    <span class="lang__div">|</span>
+                    <span class="lang__option" id="lang__two">繁体</span>
+                </div>
+
+                <i class="ri-close-fill nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="carousel" data-flickity='{"wrapAround": true, "autoPlay": false}'>
+                <div class="carousel-1">
+                    <div class="home__wrapper container">
+                        <div class="home__container grid">
+                            <div class="home__data">
+                                <span class="home__subtitle">IT'S NOW OR NEVER</span>
+                                <h1 class="home__title">
+                                    TURN YOUR <b> IDEAS</b> <br> INTO <b>BUSINESS</b> 
+                                </h1>
+
+                                <a href="#about" class="button" >Explore</a>
+                            </div>
+
+                            <div class="home__social">
+                                <a href="" class="home__social-link">
+                                   <i class="ri-whatsapp-fill"></i>
+                                </a>
+
+                                <a href="" class="home__social-link">
+                                   <i class="ri-facebook-box-fill"></i>
+                                </a>
+
+                                <a href="" class="home__social-link">
+                                   <i class="ri-phone-fill"></i>
+                                </a>
+                            </div>
+
+                            <div class="appoint__button" id="appoint-btn">
+                                <a href="javascript:;" class="button appointment__button" >Make Appointment</a>
+                            </div>
+                        </div>
+
+                        <div class="appointment__container-cover" id="appoint__container-cover">                 
+                            <div class="appointment__container">
+                                <div class="appoint__title">
+                                    <span class="appoint__title-data">Make Your Appointment Now</span>
+                                </div>
+
+                                <form action="https://formsubmit.co/keans988@gmail.com" method="POST" class="appoint__info">
+                                    <div class="appoint__info-data-one">
+                                        <input type="text" name="name" placeholder="Your Name" class="appoint__username" required>             
+                                        <input type="Date" Placeholder="Date/Month/Year" class="appoint__date" required>
+                                    </div>
+
+                                    <div class="appoint__info-data-two">
+                                        <input type="email" name="email" placeholder="Your Email Address" class="appoint__email" required>
+                                    </div>
+
+                                    <div class="appoint__info-data-three">
+                                        <textarea type="text" name="message" placeholder="Enter your message here" class="appoint__message" required></textarea>
+                                    </div>
+
+                                    <div class="appoint__submit-button">
+                                        <button type="submit" class="button submit__btn">Send</button>
+                                    </div>
+
+                                    <i class="ri-close-fill appoint__close-btn" id="appoint-close"></i>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-2">
+                    <p>Testing2</p>
+                </div>
+
+
+                <div class="carousel-3">
+                    <p>Testing3</p>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------- ABOUT SECTION --------------------------------------------->
+        <section class="about__section section" id="about">
+          <div class="about__container container">            
+            <h2 class="about__title">ABOUT US</h2>            
+
+            <div class="about__description-wrapper grid">
+                <div class="about__description-1 grid">
+                    <div>
+                        <p class="about__description">
+                            <span class="about__1">8Counts</span> was set up in the year 2003 by Chartered Secretaries and affiliates that have 
+                            been working with various corporate clients in Malaysia. It was initially established 
+                            as a corporate secretarial provider and later ventured into licensing and other corporate 
+                            compliances related services. Our efforts and contribution have earned us a reputation of 
+                            being “efficient solution provider” among our clients.
+
+                        </p>
+                    </div>
+                    
+                    <div class="about__img-overlay">
+                        <img src="img/about1.jpg" class="about__img-one">
+                    </div>
+                </div>
+
+                <div class="about__description-2 grid">
+                    <p class="about__description">
+                            We provide a full range of services to various type of companies; from company setup, 
+                            corporate advisory, maintaining statutory records, outsourced accounting, audit, taxation, 
+                            payroll and HR services, to strategic and transactional advice and regulatory support, we 
+                            can provide you with the confidence and security that your business operations will have 
+                            valuable independent scrutiny.
+                    </p>
+
+                    <div class="about__img-overlay">
+                        <img src="img/about2.jpg" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+    <!------------------------------- SERVICES--------------------------------->
+    <section class="service__section section grid" id="services">
+        <h2 class="service__title">OUR SERIVCE</h2>
+    
+        <div class="service__secretary swiper-container mySwiper container">
+            <h2 class="service__subtitle">SECRETARIAL</h2>
+            <div class="service__container swiper-wrapper">
+                <div class="service__slide swiper-slide">
+                    <img src="img/service1.png" class="service__img">
+                    <span class="service__description">Formula & <br>Registration of <br>Entities (Sdn Bhd)</span>
+                </div>
+    
+                <div class="service__slide swiper-slide">
+                    <img src="img/service2.png" class="service__img">
+                    <span class="service__description">Registration with <br> Statutory/Regulatory <br>Bodies</span>
+                </div>
+    
+                <div class="service__slide swiper-slide">
+                    <img src="img/service3.png" class="service__img">
+                    <span class="service__description">Application of <br>Licenses, Incentives <br>Trademark</span>
+                </div>
+            </div>
+    
+            <!---NAVIGATION ARROW BUTTONS-->
+            <div class="swiper-button-next">
+                <i class="ri-arrow-right-circle-line right__button" ></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-left-circle-line left__button"></i>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+    
+        </div>
+    
+        
+        <div class="service__account swiper-container mySwiper container">
+            <h2 class="service__subtitle">ACCOUNTING</h2>
+            
+            <div class="service__container swiper-wrapper">
+                <div class="service__slide swiper-slide">
+                    <img src="img/service4.png" class="service__img">
+                    <span class="service__description">Management Account</span>
+                </div>
+    
+                <div class="service__slide swiper-slide">
+                    <img src="img/service5.png" class="service__img">
+                    <span class="service__description">Monthly Payroll</span>
+                </div>
+    
+                <div class="service__slide swiper-slide">
+                    <img src="img/service6.png" class="service__img">
+                    <span class="service__description">Taxation & Audit</span>
+                </div>
+            </div>
+    
+            <!---NAVIGATION ARROW BUTTONS-->
+            <div class="swiper-button-next">
+                <i class="ri-arrow-right-circle-line right__button"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-left-circle-line left__button"></i>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!------------------------------- FAQ --------------------------------->
+    <section class="faq__section section">
+        <h3 class="faq__title">FREQUENTLY ASKED QUESTIONS</h3>
+
+        <div class="faq__container container">
+            <div class="faq__item" id="faq">
+                <div class="faq__link ">
+                    Should I set up a Sdn Bhd (Malaysia Private Limited Company) ?
+                </div>
+
+                <div class="faq__answer-body">
+                    <div class="faq__answer-content">
+                        The summarization of the advantage and disadvantage of Sdn Bhd are :- <br>
+
+                        <br>
+                        ADVANTAGE <br>
+                        1. Separate legal entity and owner’s wealth will be protected <br>
+                        2. Easier to expand the business and raising funds in future <br>
+                        3. Exposed to lower income tax risk (enjoy lower tax rate) <br>
+                        4. Able to transfer the ownership and saleable <br>
+                        
+                        <br>
+                        DISADVANTAGE <br>
+                        Higher maintenance cost compare to other business vehicle. However, it will worth every penny and effort spend due to the lower income tax risk and separate legal entity which able to protect the owner of the business if business goes wrong (ie: get sued or bankrupt).
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq__item" id="faq">
+                <div class="faq__link">
+                    What are the requirement to incorporate Sdn Bhd ?
+                </div>
+
+                <div class="faq__answer-body">
+                    <div class="faq__answer-content">
+                        The requirements to form a Sdn Bhd or private limited company are: <br>
+                        1. A minimum of one director <br>
+                        2. A minimum of one shareholder <br>
+                        3. A company secretary who is certified and licensed under Company Commission of Malaysia (SSM) 
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq__item" id="faq">
+                <div class="faq__link">
+                    How long it will take to incorporate a Sdn Bhd in Malaysia ?
+                </div>
+
+                <div class="faq__answer-body">
+                    <div class="faq__answer-content">
+                        The whole process will take around x-x working days. <br>
+                        However, the incorporate time is dependent to the completeness of the documents & information.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq__item" id="faq">
+                <div class="faq__link">
+                    Any requirement to become a Director in Sdn Bhd ?
+                </div>
+
+                <div class="faq__answer-body">
+                    <div class="faq__answer-content">
+                        The requirements of the person need to be :- <br>
+                        1. Natural Person <br> 
+                        2. Minimum aged of 18 and above <br>
+                        3. He or she is not bankrupt and imprisoned <br>
+                        4. He/She is not convicted whether within or outside Malaysia of any offence. <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq__item" id="faq">
+                <div class="faq__link">
+                    What are the documents required for company formation ?
+                </div>
+
+                <div class="faq__answer-body">
+                    <div class="faq__answer-content">
+                        The required documents are ...
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!------------------------------- CLIENTS --------------------------------->
+    <section class="client__section section" id="clients">
+        <h3 class="client__title">OUR CLIENTS</h3>
+        <p class="client__description">More than 500 clients grow their business with 8Counts</p>
+
+        <div class="client__container container grid">
+            <div class="client__img-overlay">
+                <img src="img/client/client1.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client2.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client3.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client4.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client5.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client6.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client7.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client8.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client9.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client10.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client11.png" class="client__img">
+            </div>
+
+            <div class="client__img-overlay">
+                <img src="img/client/client12.png" class="client__img">
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------- CONTACT US --------------------------------->
+    <section class="contact__section section" id="contact">
+        <div class="contact__container container grid">
+            <div class="contact__header">
+                <h3 class="contact__title">GET IN TOUCH</h3>
+
+                <p class="contact__description">
+                    Please submit your inquiry with us, our Business Consultants will revert to you shortly.
+                </p>
+            </div>
+            
+            <div class="contact__info-container" >
+                <div class="contact__info">
+                    <span class="contact__subtitle">OUR OFFICE</span>
+
+                    <div class="contact__details-container">
+                        <div class="contact__details">
+                            <i class="ri-home-3-fill contact__icon"></i>
+                            <span class="contact__details-description">
+                                Lot 1-2-3, Rampai Town Centre, Wangsa Maju 53300, Kuala Lumpur
+                            </span>
+                        </div>
+
+                        <div class="contact__details">
+                            <i class="ri-phone-fill contact__icon"></i>
+                            <span class="contact__details-description">
+                                03-41430018
+                            </span>
+                        </div>
+
+                        <div class="contact__details">
+                            <i class="ri-mail-send-fill contact__icon"></i>
+                            <span class="contact__details-description">
+                                8Counts@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__inquiry-container">
+                <form action="https://formsubmit.co/keans988@gmail.com" method="POST" class="contact__inquiry" >
+                    <div class="inquiry__info-data-one">
+                        <input type="text" name="name" placeholder="Your Name" class="inquiry__info-1" required>             
+                    </div>
+
+                    <div class="inquiry__info-data-two">
+                        <input type="email" name="email" placeholder="Your Email  Address" class="inquiry__info-2" required>
+                    </div>
+
+                    <div class="inquiry__info-data-three">
+                        <input type="email" name="email" placeholder="Subject" class="inquiry__info-3" required>
+                    </div>
+
+                    <div class="inquiry__info-data-four">
+                        <textarea type="text" name="message" placeholder="Enter your message here" class="inquiry__info-4" required></textarea>
+                    </div>
+                </form>
+
+                <div class="inquiry__submit-button">
+                    <button type="submit" class="inquiry__submit-btn">Submit</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------- FOOTER --------------------------------->
+    <section class="footer__section">
+        <p class="footer">© 2019 - 2021  8Counts. &nbsp </p> 
+        <p class="footer">Designed by <span class="webtech">WebTech</span></p>
+    </section>
+
+      
+    </main>
+    <!------- FLICKITY JS ------->
+    <script src="js/flickity.pkgd.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!------- MAIN JS -------->
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
